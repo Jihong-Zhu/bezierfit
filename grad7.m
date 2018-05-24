@@ -32,7 +32,7 @@ plot(p(:,1), p(:,2), '*');
 plot(y(:,1), y(:,2), 'o');
 plot(d(:,1), d(:,2), '+');
 axis('equal');
-legend('-', 'Fitted Curve', '*', 'Control Points', 'o', 'Initial Times', '+','Data Points');
+legend('Fitted Curve', 'Control Points', 'Initial Times', 'Data Points');
 hold off;
 
 iter = 0;
@@ -62,7 +62,7 @@ plot(p(:,1), p(:,2), '*');
 plot(y(:,1), y(:,2), 'o');
 plot(d(:,1), d(:,2), '+');
 axis('equal');
-legend('-', 'Fitted Curve', '*', 'Control Points', 'o', 'Initial Times', '+','Data Points');
+legend('Fitted Curve', 'Control Points', 'Initial Times', 'Data Points');
 
 if (hold_was_off)
     hold off;
